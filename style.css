@@ -1,0 +1,102 @@
+/* Reset básico para garantir que todos os navegadores tenham um estilo consistente */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f4f8; /* Fundo claro para contraste */
+  font-family: 'Arial', sans-serif;
+  color: #333; /* Cor de texto padrão */
+}
+
+/* Header */
+header {
+  background-color: #ff4757; /* Cor vibrante para o cabeçalho */
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffeaa7; /* Cor de destaque ao passar o mouse */
+}
+
+/* Seção Hero */
+.hero {
+  background: linear-gradient(to right, rgba(255, 71, 87, 0.8), rgba(255, 206, 86, 0.8));
+  padding: 60px 0;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: white;
+}
+
+/* Apresentação */
+.apresentacao, .funcionalidades, .depoimentos, .contato {
+  padding: 40px 0;
+}
+
+.apresentacao h2, .funcionalidades h2, .depoimentos h2, .contato h2 {
+  color: #ff4757; /* Cor vibrante para títulos */
+  margin-bottom: 30px;
+}
+
+/* Estilo das Cards */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Efeito de levitar ao passar o mouse */
+}
+
+.card-title {
+  color: #ff4757; /* Cor vibrante para o título do card */
+}
+
+.card-text {
+  color: #555; /* Cor de texto mais suave para os parágrafos */
+}
+
+/* Depoimentos */
+blockquote {
+  background-color: #fffae6; /* Fundo suave para depoimentos */
+  border-left: 5px solid #ff4757; /* Borda colorida à esquerda */
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+/* Rodapé */
+footer {
+  background-color: #333; /* Fundo escuro para o rodapé */
+  color: white;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #ffeaa7; /* Cor vibrante para links */
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: white; /* Cor de destaque ao passar o mouse */
+}
