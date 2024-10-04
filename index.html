@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melodia - Sua Música, Sua Forma</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bg-dark text-white">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">
+                <img src="img/icone.png" alt="Logo Melodia" width="30" height="30" class="d-inline-block align-top"> <!-- Imagem do logo -->
+                Melodia
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              
+                <div class="nav-item ml-3">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-bell fa-lg"></i> <!-- Ícone de notificação -->
+                    </a>
+                </div>
+                <div class="nav-item ml-3">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-user fa-lg"></i> <!-- Ícone de usuário -->
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Seção Hero -->
+    <section class="hero text-center">
+        <div class="container">
+            <h1>Melodia: Sua Música, Sua Forma</h1>
+            <p>Descubra, ouça e compartilhe suas músicas favoritas com qualidade superior.</p>
+            <a href="#" class="btn btn-primary btn-lg">Ouvir Agora</a>
+            <div class="mt-4">
+                <iframe width="1500" height="1000" src="/img/imagem3.png" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+    <!-- Apresentação -->
+    <section class="apresentacao py-5">
+        <div class="container text-center">
+            <h2>Benefícios do Melodia</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="fas fa-volume-up fa-3x"></i>
+                    <h4>Qualidade de Som Superior</h4>
+                    <p>Sinta cada nota com uma clareza impressionante.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-list-ul fa-3x"></i>
+                    <h4>Playlists Personalizadas</h4>
+                    <p>Monte suas trilhas sonoras perfeitas com facilidade.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-star fa-3x"></i>
+                    <h4>Descoberta de Novos Artistas</h4>
+                    <p>Encontre seus novos favoritos todos os dias.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Funcionalidades -->
+    <section class="funcionalidades py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Funcionalidades do App</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Interface Intuitiva</h5>
+                            <p class="card-text">Navegação fácil que coloca a música em primeiro lugar.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Recomendações Inteligentes</h5>
+                            <p class="card-text">Receba sugestões personalizadas com base em seu gosto musical.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Música Offline</h5>
+                            <p class="card-text">Baixe suas músicas favoritas e ouça sem conexão.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="depoimentos py-5">
+        <div class="container text-center">
+            <h2>O que nossos usuários dizem</h2>
+            <blockquote class="blockquote">
+                <p>"Melodia transformou minha experiência musical!"</p>
+                <footer class="blockquote-footer">
+                    <img src="img/perfil2.png" alt="Ana" class="rounded-circle" width="60" height="60"> Ana, 22 anos
+                </footer>
+            </blockquote>
+            <blockquote class="blockquote">
+                <p>"Descobri artistas incríveis que nunca teria encontrado."</p>
+                <footer class="blockquote-footer">
+                    <img src="/img/perfil.png" alt="Lucas" class="rounded-circle" width="60" height="60"> Lucas, 25 anos
+                </footer>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section class="contato py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Fique por Dentro das Novidades</h2>
+            <form class="mt-4">
+                <div class="form-row">
+                    <div class="col-md-8 mb-3">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Seu email" required>
+                        <div class="invalid-feedback">
+                            Por favor, insira um endereço de e-mail válido.
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="submit">&nbsp;</label> <!-- Espaço para label -->
+                        <button class="btn btn-primary btn-block" type="submit" id="submit">Inscrever-se</button>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="consent" required>
+                        <label class="form-check-label" for="consent">
+                            Concordo em receber e-mails sobre novidades e ofertas.
+                        </label>
+                        <div class="invalid-feedback">
+                            Você deve concordar antes de enviar.
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 Melodia. Todos os direitos reservados.</p>
+        <p>Contato: contato@melodia.com</p>
+        <p>
+            <a href="#" class="text-white">Facebook</a> | 
+            <a href="#" class="text-white">Twitter</a> | 
+            <a href="#" class="text-white">Instagram</a>
+        </p>
+        <p><a href="#" class="text-white">Política de Privacidade</a></p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
